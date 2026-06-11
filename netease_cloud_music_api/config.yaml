@@ -11,17 +11,17 @@ arch:
   - i386
 init: false
 ports:
-  3000/tcp: 3000
+  3000/tcp: 3003
 ports_description:
   3000/tcp: NetEase Cloud Music API HTTP service
 options:
-  port: 3000
+  port: 3003
   enable_flac: true
   cors_allow_origin: "*"
 schema:
   port:
     type: int
-    default: 3000
+    default: 3003
   enable_flac:
     type: bool
     default: true
