@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 128">
+  <rect width="256" height="128" rx="20" fill="#C20C0C"/>
+  <text x="20" y="82" font-family="Arial" font-size="56" font-weight="bold" fill="white">NetEase</text>
+  <text x="20" y="118" font-family="Arial" font-size="28" fill="rgba(255,255,255,0.7)">Cloud Music API</text>
+</svg>
