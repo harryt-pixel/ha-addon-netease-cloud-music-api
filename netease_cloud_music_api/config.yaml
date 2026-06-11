@@ -18,34 +18,17 @@ options:
   port: 3003
   enable_flac: true
   cors_allow_origin: "*"
+  enable_proxy: false
+  proxy_url: ""
+  enable_general_unblock: true
+  select_max_br: false
+  unblock_source: "pyncmd,qq,bodian,migu,kugou,kuwo"
 schema:
-  port:
-    type: int
-    default: 3003
-  enable_flac:
-    type: bool
-    default: true
-  cors_allow_origin:
-    type: str
-    default: "*"
-    optional: true
-  enable_proxy:
-    type: bool
-    default: false
-    optional: true
-  proxy_url:
-    type: str
-    default: ""
-    optional: true
-  enable_general_unblock:
-    type: bool
-    default: true
-    optional: true
-  select_max_br:
-    type: bool
-    default: false
-    optional: true
-  unblock_source:
-    type: str
-    default: "pyncmd,qq,bodian,migu,kugou,kuwo"
-    optional: true
+  port: int(1025,65535)
+  enable_flac: bool
+  cors_allow_origin: str?
+  enable_proxy: bool?
+  proxy_url: str?
+  enable_general_unblock: bool?
+  select_max_br: bool?
+  unblock_source: str?
