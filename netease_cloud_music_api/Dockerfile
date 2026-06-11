@@ -6,4 +6,4 @@ ARG BUILD_VERSION
 
 COPY --chmod=755 run.sh /
 
-CMD ["/run.sh"]
+ENTRYPOINT ["/run.sh"]
